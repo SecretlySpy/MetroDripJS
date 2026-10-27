@@ -64,9 +64,9 @@ def generate_avatar(name_id, initials, contribution, web_dir, mobile_dir):
 def main():
     members = [
         ("navarro", "AN", "Architecture & Integration"),
-        ("pameroyan", "AP", "Inventory & Payments"),
+        ("pameroyan", "AP", "Testing & Deployment"),
         ("deborja", "JD", "Storefront & UI/UX"),
-        ("carlos", "RC", "Testing & Deployment"),
+        ("carlos", "RC", "Inventory & Payments"),
         ("nogoy", "MN", "Database & Security"),
     ]
     web_team = os.path.abspath("web/assets/team")

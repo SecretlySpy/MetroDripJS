@@ -16,9 +16,9 @@ const EXPECTED_MEMBERS = [
   },
   {
     name: 'Pameroyan, Archim Paul C.',
-    role: 'Backend Developer',
-    contribution: 'Inventory & Payments',
-    bio: 'Focuses on Django/DRF APIs for inventory, stock reservations, and server-authoritative checkout. This role supports transaction-safe order processing and PayMongo Hosted Checkout integration for configured online payment methods.',
+    role: 'QA & DevOps Engineer',
+    contribution: 'Testing & Deployment',
+    bio: 'Focuses on automated coverage across Django and Node.js tests, Playwright browser checks, and accessibility tooling. This role also maintains deployment configuration and Android build workflows while hosted deployment and device release gates remain unverified.',
     initials: 'AP',
   },
   {
@@ -30,9 +30,9 @@ const EXPECTED_MEMBERS = [
   },
   {
     name: 'Carlos, Reuel L.',
-    role: 'QA & DevOps Engineer',
-    contribution: 'Testing & Deployment',
-    bio: 'Focuses on automated coverage across Django and Node.js tests, Playwright browser checks, and accessibility tooling. This role also maintains deployment configuration and Android build workflows while hosted deployment and device release gates remain unverified.',
+    role: 'Backend Developer',
+    contribution: 'Inventory & Payments',
+    bio: 'Focuses on Django/DRF APIs for inventory, stock reservations, and server-authoritative checkout. This role supports transaction-safe order processing and PayMongo Hosted Checkout integration for configured online payment methods.',
     initials: 'RC',
   },
   {
