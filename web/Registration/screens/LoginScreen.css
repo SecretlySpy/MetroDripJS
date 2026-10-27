@@ -117,8 +117,8 @@ input {
 .logo::before {
   content: '';
   display: inline-block;
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   background: url('/assets/branding/logo-emblem.png') no-repeat center / contain;
   flex-shrink: 0;
 }

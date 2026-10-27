@@ -132,8 +132,8 @@ button, input, select, textarea {
 .brand-logo::before {
   content: '';
   display: inline-block;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   background: url('/assets/branding/logo-emblem.png') no-repeat center / contain;
   flex-shrink: 0;
 }
