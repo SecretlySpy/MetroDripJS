@@ -93,8 +93,10 @@ test('the active Expo root provides system theme context and permits native appe
   assert.equal(config.expo.userInterfaceStyle, 'automatic');
 });
 
-test('SVG favicon keeps the dark-adapted emblem on its dark tile', () => {
+test('SVG favicon keeps the dark-adapted emblem on its dark tile and avoids sandbox-blocked external references', () => {
   const svg = read('web', 'assets', 'favicon.svg');
   assert.match(svg, /fill: #141414/);
   assert.match(svg, /logo-emblem-dark\.png/);
+  assert.doesNotMatch(svg, /href="\/(?:assets|branding)/, 'SVG favicons must be self-contained and avoid external subresources blocked by browser image sandbox');
+  assert.match(svg, /href="data:image\/png;base64,/);
 });
