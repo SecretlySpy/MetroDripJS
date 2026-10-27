@@ -1789,7 +1789,6 @@ async function renderSignIn(_route, scope) {
   const brandPanel = el('div', { class: 'auth-brand-panel' }, [
     el('img', { class: 'auth-brand-badge-img', src: '/assets/branding/logo-dark.png', alt: 'METRODRIP' }),
     el('p', { class: 'auth-brand-tagline' }, ['Your city.', el('br'), 'Your style.']),
-    el('p', { class: 'auth-brand-perks' }, 'Order history · Wishlist · Faster checkout'),
   ]);
 
   const form = el('form', { class: 'auth-form-card', onsubmit: async (event) => {
